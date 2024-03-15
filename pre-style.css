@@ -1341,7 +1341,7 @@ styling for about us page
   width: 32.6563rem;
   height: 41.875rem;
 
-  object-fit: cover;
+  object-fit: contain;
 }
 .team {
   display: flex;
@@ -2257,13 +2257,14 @@ styling for the sign up page
   background-color: var(--Text-Blur, #e0e0e0);
   box-shadow: 0.0625rem 0.0625rem 0.125rem 0rem rgba(0, 0, 0, 0.02);
   backdrop-filter: blur(31.25rem);
-  background-image: url(https://s3-alpha-sig.figma.com/img/9079/9f94/a4b6076b5333d051164f65ffe61e97a5?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=q4oP1qkN2QJJu-kCIvhFvo75wLE0Mzofm~uH9sgrQUT4PgfhFYex1XS5FYyKM1MNpA734DO1y6uP0RAALFwYFagRSrkT7W2DoaE5Arg5vcXfXWIlRWj1a9iRn2pG58B5DHY9WG0JwPLTbLPQZn317wCmk16sCMRsjE8pbg13aCdGxW-VstUdtmHjlfLReYsw05Y0yEuaU6yBt5pLsAQy8YzhAohfzn-3HFb7R0hjcCDxShGLVwLh7m-lb0UyNhsUQc-cZ9278n2s8bSnucSTft28ZYsaJswRp~tcQtIXWrLNgwH8YAERVTWVAZatmGW2lju1YnJdvcpVVWTgMXnF9A__);
+  background-image: url(images/jobbo-logo.png);
 
-  background-size: cover;
+  background-size: 60%;
   background-repeat: no-repeat;
-  background-position-x: center;
   background-position: 5%;
+  background-position: center;
 }
+
 /*.sign-uu::before {
   content: "";
   opacity: 0.6;
@@ -2382,12 +2383,11 @@ styling for the sign in page
   flex-shrink: 0;
   backdrop-filter: blur(0.5906rem);
 
-  background-image: url(https://s3-alpha-sig.figma.com/img/9079/9f94/a4b6076b5333d051164f65ffe61e97a5?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=q4oP1qkN2QJJu-kCIvhFvo75wLE0Mzofm~uH9sgrQUT4PgfhFYex1XS5FYyKM1MNpA734DO1y6uP0RAALFwYFagRSrkT7W2DoaE5Arg5vcXfXWIlRWj1a9iRn2pG58B5DHY9WG0JwPLTbLPQZn317wCmk16sCMRsjE8pbg13aCdGxW-VstUdtmHjlfLReYsw05Y0yEuaU6yBt5pLsAQy8YzhAohfzn-3HFb7R0hjcCDxShGLVwLh7m-lb0UyNhsUQc-cZ9278n2s8bSnucSTft28ZYsaJswRp~tcQtIXWrLNgwH8YAERVTWVAZatmGW2lju1YnJdvcpVVWTgMXnF9A__);
+  background-image: url(images/jobbo-logo.png);
 
-  background-size: cover;
+  background-size: 50%;
   background-repeat: no-repeat;
-  background-position-x: center;
-  background-position: 15%;
+  background-position: center;
 }
 .sign-insub {
   display: flex;
@@ -2591,6 +2591,7 @@ styling for the verification page
 .verify img {
   width: 28.125rem;
   height: 37.375rem;
+  object-fit: cover;
   border-radius: 0.625rem;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
@@ -2990,7 +2991,7 @@ styling for the work page
   width: 75.0359rem;
   height: 45.0737rem;
   flex-shrink: 0;
-  object-fit: cover;
+  object-fit: contain;
   z-index: 5;
 }
 .oppo-main {

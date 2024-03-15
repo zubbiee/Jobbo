@@ -239,11 +239,16 @@ footer {
   align-items: flex-start;
   gap: 0.625rem;
 }
-.sub-icon1 svg {
+footer img {
+  width: 12.5rem;
+  height: 5.83544rem;
+  flex-shrink: 0;
+}
+/* .sub-icon1 svg {
   width: 12.5rem;
   height: 5.8354rem;
   flex-shrink: 0;
-}
+} */
 .sub-icon1 {
   display: flex;
   flex-direction: column;
@@ -1565,7 +1570,7 @@ styling for the workpage
   width: 75.0359rem;
   height: 45.0737rem;
   flex-shrink: 0;
-  object-fit: cover;
+  object-fit: contain;
   z-index: 5;
 }
 .oppo-main {
