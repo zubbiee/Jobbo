@@ -133,9 +133,9 @@ styling for the header
 }
 .dropdown-content a li {
   display: flex;
-  width: 10.3125rem;
-  padding: 0.625rem 0;
-  /* align-items: center; */
+  width: 13.3125rem;
+  padding: 0.625rem;
+  align-items: center;
   gap: 0.625rem;
 }
 
@@ -150,7 +150,7 @@ styling for the header
 
   /* B2 */
   font-family: Inter;
-  font-size: 0.775rem;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
   line-height: 1.375rem; /* 157.143% */
@@ -680,7 +680,7 @@ styling for the user landing page
 }
 .ex {
   display: flex;
-  width: 79.3125rem;
+  width: 80rem;
   padding: 5rem;
   flex-direction: column;
   justify-content: center;
@@ -766,8 +766,8 @@ styling for the user landing page
   align-self: stretch;
 }
 .ex-graphics img {
-  width: 25.0158rem;
-  height: 28.1742rem;
+  width: 25.64081rem;
+  height: 30.36169rem;
   flex-shrink: 0;
   /* z-index: 10000; */
   object-fit: cover;
