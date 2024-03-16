@@ -24,6 +24,12 @@ general style colors
     opacity: 1;
   }
 }
+button {
+  transition: 0.2s ease-in-out;
+}
+a button {
+  transition: 0.2s ease-in-out;
+}
 .btnlink {
   text-decoration: none;
 }
