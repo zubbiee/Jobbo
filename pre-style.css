@@ -16,6 +16,9 @@ general style colors
   box-sizing: border-box;
   animation: fadein 0.2s;
 }
+html {
+  font-size: 1rem;
+}
 @keyframes fadein {
   from {
     opacity: 0;
