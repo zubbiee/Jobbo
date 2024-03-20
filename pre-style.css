@@ -435,7 +435,8 @@ styling for the user landing page
 }
 .userslider {
   display: flex;
-  width: 81.25rem;
+  /* width: 81.25rem; */
+  width: 81.25%;
   height: 43.1875rem;
   padding-left: 0.375rem;
   justify-content: flex-end;
