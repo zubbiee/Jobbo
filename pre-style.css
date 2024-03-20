@@ -17,7 +17,7 @@ general style colors
   animation: fadein 0.2s;
 }
 html {
-  font-size: 1rem;
+  font-size: 16px;
 }
 @keyframes fadein {
   from {
@@ -1023,15 +1023,13 @@ styling for the user landing page
   align-self: stretch;
 }
 .feed-box {
-  /*display: flex;
-    height: 22.625rem;
-    justify-content: flex-end;
-    align-items: center;
-    align-self: stretch;*/
   display: flex;
   align-items: flex-start;
   gap: 2.5rem;
 }
+/* .feed-box p {
+  font-family: Poppins;
+} */
 .feed-box1 {
   display: flex;
   width: 36.375rem;
