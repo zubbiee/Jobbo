@@ -2236,7 +2236,7 @@ styling for the pre login choose account type
   justify-content: center;
   align-items: center;
   gap: 0.625rem;
-  border-radius: 2.5rem;
+  border-radius: 0.25rem;
   background: var(--secondary-100, #c65a42);
   color: var(--Text-White, #fdfdfd);
 
@@ -2403,7 +2403,7 @@ form button {
   justify-content: center;
   align-items: center;
   gap: 0.625rem;
-  border-radius: 2.5rem;
+  border-radius: 0.25rem;
   background: var(--secondary-100, #c65a42);
   color: var(--Text-White, #fdfdfd);
 
@@ -2762,7 +2762,7 @@ styling for the verification page
   justify-content: center;
   align-items: center;
   gap: 0.625rem;
-  border-radius: 2.5rem;
+  border-radius: 0.25rem;
   background: var(--secondary-100, #c65a42);
   color: var(--Text-White, #fdfdfd);
 
