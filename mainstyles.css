@@ -26,12 +26,6 @@ general style colors
     opacity: 1;
   }
 }
-button {
-  transition: 0.2s ease-in-out;
-}
-a button {
-  transition: 0.2s ease-in-out;
-}
 .btnlink {
   text-decoration: none;
   display: inline-block;
@@ -46,6 +40,12 @@ for darkmode
 #usersetpage {
   background-color: var(--background-color);
   color: var(--text-color);
+}
+button {
+  transition: 0.2s ease-in-out;
+}
+a button {
+  transition: 0.2s ease-in-out;
 }
 /* button:disabled {
   opacity: 0.5;
@@ -379,7 +379,7 @@ footer img {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  border-radius: 1.75rem;
+  border-radius: 0.25rem;
   color: white;
   background-color: transparent;
 
@@ -490,7 +490,7 @@ styling for the user landing page
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  border-radius: 2.5rem;
+  border-radius: 0.25rem;
   background: var(--secondary-100, #c65a42);
 
   /* Button */
@@ -771,11 +771,29 @@ styling for the user landing page
   gap: 1.5rem;
   align-self: stretch;
 }
+.ex-filled p{
+  color: var(--Text-Active, #00171F);
+
+/* B0 */
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2rem; /* 133.333% */
+/* width: 33.8125rem; */
+height: 2rem;
+}
+.ex-filled>div{
+  display: flex;
+padding: 1.10888rem 5.66925rem 0.89113rem 1rem;
+align-items: center;
+align-self: stretch;
+/* background: rgba(189, 161, 118, 0.30); */
+}
 .ex-graphics img {
   width: 25.64081rem;
   height: 30.36169rem;
   flex-shrink: 0;
-  /* z-index: 10000; */
   object-fit: cover;
 }
 /*.big-e {
@@ -1041,6 +1059,7 @@ styling for the user landing page
 .feed-box1 {
   display: flex;
   width: 36.375rem;
+  height: 20.5rem;
   padding: 2.5rem;
   flex-direction: column;
   align-items: flex-start;
@@ -1063,6 +1082,16 @@ styling for the user landing page
   font-weight: 500;
   line-height: 2rem; /* 133.333% */
   align-self: stretch;
+}
+.feedp{
+  color: var(--Text-Active, #00171F);
+
+/* B0 */
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2rem; /* 133.333% */
 }
 .profile-mini {
   display: flex;
@@ -1230,8 +1259,9 @@ styling for about us page
   padding: 5rem;
   align-items: center;
   gap: 2.5rem;
-  background: var(--Text-White, #fdfdfd);
+  background: var(--primary-200, #1B5096);
   width: 100%;
+  margin-top: 2.5rem;
   justify-content: space-between;
 }
 .mission-text {
@@ -1242,7 +1272,7 @@ styling for about us page
   gap: 1.875rem;
 }
 .mission-text h2 {
-  color: var(--primary-200, #1b5096);
+  color:white;
 
   /* H1 */
   font-family: Inter;
@@ -1254,7 +1284,7 @@ styling for about us page
 .mission-text p {
   width: 29.375rem;
   flex: 1 0 0;
-  color: var(--Text-Active, #00171f);
+  color:white;
 
   /* H4 */
   font-family: Inter;
@@ -1293,7 +1323,7 @@ styling for about us page
 .choose-main {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   gap: 4rem;
   align-self: stretch;
 }
@@ -1352,8 +1382,10 @@ styling for about us page
   line-height: 1.5rem;
 }
 .choose-main img {
-  width: 32.6563rem;
-  height: 41.875rem;
+  /* width: 32.6563rem;
+  height: 41.875rem; */
+  width: 28.875rem;
+height: 40.5rem;
   object-fit: cover;
 }
 .team {
@@ -1477,7 +1509,7 @@ styling for about us page
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  border-radius: 2.5rem;
+  border-radius: 0.25rem;
   background: var(--secondary-100, #c65a42);
   border: none;
   color: white;
@@ -1507,14 +1539,14 @@ styling for the workpage
   align-items: center;
   position: relative;
   margin: auto;
-  width: 90%;
+  width: 100%;
 }
 .make-first {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 2.5rem;
-  position: absolute;
+  /* position: absolute; */
 }
 .make-first > div {
   display: flex;
@@ -1523,25 +1555,24 @@ styling for the workpage
   gap: 1rem;
 }
 .make-first h3 {
-  width: 33.5625rem;
-  color: var(--primary-200, #1b5096);
+  color: var(--primary-200, #1B5096);
 
-  /* H0.5 */
-  font-family: "Inter";
-  font-size: 4rem;
+  /* H1 */
+  font-family: Inter;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 5rem; /* 125% */
+  line-height: 3.5rem; /* 116.667% */
 }
 .make-first p {
-  color: #000;
+  color: var(--primary-200, #1B5096);
 
-  /* H4 */
-  font-family: "Inter";
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 2rem; /* 133.333% */
+/* H2 */
+font-family: Inter;
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.75rem; /* 122.222% */
 }
 
 .make-first button {
@@ -1559,7 +1590,7 @@ styling for the workpage
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  border-radius: 2.5rem;
+  border-radius: 0.25rem;
   background: var(--secondary-100, #c65a42);
 
   /* Button */
@@ -1573,8 +1604,8 @@ styling for the workpage
   background-color: var(--secondary-100);
 }
 .make img {
-  width: 75.0359rem;
-  height: 45.0737rem;
+  width: 31.994rem;
+  height: 48.1405rem;
   flex-shrink: 0;
   object-fit: contain;
   z-index: 5;
@@ -1745,7 +1776,7 @@ styling for the workpage
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  border-radius: 1.75rem;
+  border-radius: 0.25rem;
   background-color: transparent;
   /* Button */
   box-shadow: 0.0625rem 0.0625rem 0.125rem 0rem rgba(0, 0, 0, 0.02);
@@ -1841,7 +1872,7 @@ styling for the workpage
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  border-radius: 1.75rem;
+  border-radius: 0.25rem;
 
   /* Button */
   box-shadow: 0.0625rem 0.0625rem 0.125rem 0rem rgba(0, 0, 0, 0.02);
@@ -2024,7 +2055,7 @@ button:disabled {
   justify-content: center;
   align-items: center;
   gap: 0.625rem;
-  border-radius: 2.5rem;
+  border-radius: 0.25rem;
   background: var(--secondary-100, #c65a42);
   border: none;
   color: white;
@@ -2316,7 +2347,7 @@ styling for the decor page
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  border-radius: 1.75rem;
+  border-radius: 0.25rem;
 
   /* Button */
   box-shadow: 0.0625rem 0.0625rem 0.125rem 0rem rgba(0, 0, 0, 0.02);
@@ -2965,7 +2996,7 @@ styling for the hire page
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  border-radius: 1.75rem;
+  border-radius: 0.25rem;
   border: 0.0625rem solid var(--secondary-100, #c65a42);
 
   /* Button */
@@ -3166,8 +3197,9 @@ styling for the worker profile; user's view
 */
 .workerprofile-main {
   background: var(--Text-White, #fdfdfd);
-  width: 80%;
+  width: 100%;
   margin: auto;
+  padding-right: 10rem;
 }
 .worker-body {
   display: inline-flex;
@@ -3175,7 +3207,7 @@ styling for the worker profile; user's view
   flex-direction: column;
   align-items: center;
   gap: 3.0625rem;
-
+  margin: auto 15rem auto auto;
   height: auto;
   width: 100%;
 }
@@ -3377,6 +3409,7 @@ styling for the worker profile; user's view
   justify-content: center;
   align-items: flex-start;
   gap: 1rem;
+  width: 90%;
   border-radius: 1.5rem;
   background: var(--Grey, #dcdcdc);
 }
@@ -3539,7 +3572,7 @@ styling for the worker profile; user's view
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  border-radius: 1.75rem;
+  border-radius: 0.25rem;
   border: 0.0625rem solid var(--secondary-100, #c65a42);
 
   /* Button */
@@ -3719,6 +3752,28 @@ styling for the worker profile; user's view
   line-height: 1.5rem; /* 200% */
 }
 
+.ad3 {
+  /* display: inline-flex; */
+  padding: 0.25rem 1.125rem;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 0.25rem;
+  border-radius: 0.25rem;
+  background: #ca7461;
+  position: absolute;
+  top: 59.4375rem;
+  right: 2.8125rem;
+  width: 6.3rem;
+}
+.ad3 p {
+  color: #000;
+  font-family: "Inter";
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem; /* 200% */
+}
+
 /*
 styling for the user personal profile
 */
@@ -3745,7 +3800,7 @@ styling for the user personal profile
 }
 .persona-well h1 {
   color: var(--Text-Active, #00171f);
-  font-family: "Inter";
+  font-family: Inter;
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 600;
@@ -4025,7 +4080,7 @@ styling for the user personal profile
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  border-radius: 1.75rem;
+  border-radius: 0.25rem;
   border: 0.0625rem solid var(--secondary-100, #c65a42);
 
   color: var(--secondary-100, #c65a42);

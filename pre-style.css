@@ -16,9 +16,6 @@ general style colors
   box-sizing: border-box;
   animation: fadein 0.2s;
 }
-html {
-  font-size: 16px;
-}
 @keyframes fadein {
   from {
     opacity: 0;
@@ -255,11 +252,12 @@ styling for the header
   align-items: center;
   flex-shrink: 0;
 }
+
 .nav {
   display: flex;
   width: 45.8125rem;
   height: 4.1875rem;
-  padding-right: 2.5rem;
+  padding-right: 40px;
   align-items: center;
   gap: 1.875rem;
   flex-shrink: 0;
@@ -342,7 +340,7 @@ styling for the header
   line-height: 1.375rem; /* 157.143% */
 }
 .dropdown-content li {
-  margin: 0.3125rem 0;
+  margin: 5px 0;
   text-align: center;
   list-style-type: none;
 }
@@ -401,7 +399,8 @@ styling for the header
   align-items: center;
   gap: 0.5rem;
   white-space: nowrap;
-  border-radius: 28px;
+ 
+  border-radius: 0.25rem;
   border: 1px solid var(--secondary-100, #c65a42);
 
   /* Button */
@@ -410,7 +409,7 @@ styling for the header
 
   /* small button */
   font-family: Poppins;
-  font-size: 0.8125rem;
+  font-size: 13px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px; /* 150% */
@@ -435,8 +434,7 @@ styling for the user landing page
 }
 .userslider {
   display: flex;
-  /* width: 81.25rem; */
-  width: 80vw;
+  width: 81.25rem;
   height: 43.1875rem;
   padding-left: 0.375rem;
   justify-content: flex-end;
@@ -485,7 +483,7 @@ styling for the user landing page
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  border-radius: 2.5rem;
+  border-radius: 0.25rem;
   background: var(--secondary-100, #c65a42);
 
   /* Button */
@@ -766,6 +764,25 @@ styling for the user landing page
   gap: 1.5rem;
   align-self: stretch;
 }
+.ex-filled p{
+  color: var(--Text-Active, #00171F);
+
+/* B0 */
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2rem; /* 133.333% */
+/* width: 33.8125rem; */
+height: 2rem;
+}
+.ex-filled>div{
+  display: flex;
+padding: 1.10888rem 5.66925rem 0.89113rem 1rem;
+align-items: center;
+align-self: stretch;
+background: rgba(189, 161, 118, 0.30);
+}
 .ex-graphics img {
   width: 25.64081rem;
   height: 30.36169rem;
@@ -998,6 +1015,16 @@ styling for the user landing page
   gap: 0.625rem;
   background: var(--primary-300, #95b5df);
 }
+.feedp{
+  color: var(--Text-Active, #00171F);
+
+/* B0 */
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2rem; /* 133.333% */
+}
 .feedsub {
   display: flex;
   flex-direction: column;
@@ -1024,16 +1051,20 @@ styling for the user landing page
   align-self: stretch;
 }
 .feed-box {
+  /*display: flex;
+    height: 22.625rem;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: stretch;*/
   display: flex;
   align-items: flex-start;
   gap: 2.5rem;
+  height: 100%;
 }
-/* .feed-box p {
-  font-family: Poppins;
-} */
 .feed-box1 {
   display: flex;
   width: 36.375rem;
+  height: 20.5rem;
   padding: 2.5rem;
   flex-direction: column;
   align-items: flex-start;
@@ -1223,9 +1254,10 @@ styling for about us page
   padding: 5rem;
   align-items: center;
   gap: 2.5rem;
-  background: var(--Text-White, #fdfdfd);
+  background: var(--primary-200, #1B5096);
   width: 100%;
   justify-content: space-between;
+  margin-top: 2.5rem;
 }
 .mission-text {
   display: flex;
@@ -1235,7 +1267,7 @@ styling for about us page
   gap: 1.875rem;
 }
 .mission-text h2 {
-  color: var(--primary-200, #1b5096);
+  color:white;
 
   /* H1 */
   font-family: Inter;
@@ -1247,7 +1279,7 @@ styling for about us page
 .mission-text p {
   width: 29.375rem;
   flex: 1 0 0;
-  color: var(--Text-Active, #00171f);
+  color: white;
 
   /* H4 */
   font-family: Inter;
@@ -1287,7 +1319,7 @@ styling for about us page
 .choose-main {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   gap: 4rem;
   align-self: stretch;
 }
@@ -1346,8 +1378,10 @@ styling for about us page
   line-height: 1.5rem;
 }
 .choose-main img {
-  width: 32.6563rem;
-  height: 41.875rem;
+  /* width: 32.6563rem;
+  height: 41.875rem; */
+  width: 28.875rem;
+height: 40.5rem;
 
   object-fit: contain;
 }
@@ -1472,7 +1506,7 @@ styling for about us page
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  border-radius: 2.5rem;
+  border-radius: 0.25rem;
   background: var(--secondary-100, #c65a42);
   border: none;
   color: white;
@@ -1638,7 +1672,7 @@ button:disabled {
   justify-content: center;
   align-items: center;
   gap: 0.625rem;
-  border-radius: 2.5rem;
+  border-radius: 0.25rem;
   background: var(--secondary-100, #c65a42);
   border: none;
   color: white;
@@ -2078,7 +2112,7 @@ styling for the hire page
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  border-radius: 1.75rem;
+  border-radius: 0.25rem;
   border: 0.0625rem solid var(--secondary-100, #c65a42);
 
   /* Button */
@@ -2249,6 +2283,17 @@ styling for the sign up page
   font-style: normal;
   font-weight: 600;
   line-height: 3.5rem; /* 116.667% */
+}
+.sign-head>p{
+  color: var(--Text-Active, #00171F);
+
+/* H2 */
+font-family: Inter;
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.75rem;
+text-transform: uppercase;
 }
 .sign-uu {
   margin-top: 5%;
@@ -2681,7 +2726,6 @@ styling for the verification page
   display: flex;
   align-items: center;
   justify-content: center;
-
   border-radius: 0.25rem 0.25rem 0rem 0rem;
 }
 .frame271 form {
@@ -2927,14 +2971,14 @@ styling for the work page
   align-items: center;
   position: relative;
   margin: auto;
-  width: 90%;
+  width: 100%;
 }
 .make-first {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 2.5rem;
-  position: absolute;
+  /* position: absolute; */
   z-index: 10;
 }
 .make-first > div {
@@ -2944,25 +2988,24 @@ styling for the work page
   gap: 1rem;
 }
 .make-first h3 {
-  width: 33.5625rem;
-  color: var(--primary-200, #1b5096);
+  color: var(--primary-200, #1B5096);
 
-  /* H0.5 */
+  /* H1 */
   font-family: Inter;
-  font-size: 4rem;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 5rem; /* 125% */
+  line-height: 3.5rem; /* 116.667% */
 }
 .make-first p {
-  color: #000;
+  color: var(--primary-200, #1B5096);
 
-  /* H4 */
-  font-family: Inter;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 2rem; /* 133.333% */
+/* H2 */
+font-family: Inter;
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.75rem; /* 122.222% */
 }
 
 .make-first button {
@@ -2980,7 +3023,7 @@ styling for the work page
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  border-radius: 2.5rem;
+  border-radius: 0.25rem;
   background: var(--secondary-100, #c65a42);
 
   /* Button */
@@ -2994,8 +3037,8 @@ styling for the work page
   background-color: var(--secondary-100);
 }
 .make img {
-  width: 75.0359rem;
-  height: 45.0737rem;
+  width: 31.994rem;
+height: 48.1405rem;
   flex-shrink: 0;
   object-fit: contain;
   z-index: 5;
@@ -3166,7 +3209,7 @@ styling for the work page
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  border-radius: 1.75rem;
+  border-radius: 0.25rem;
   background-color: transparent;
   /* Button */
   box-shadow: 0.0625rem 0.0625rem 0.125rem 0rem rgba(0, 0, 0, 0.02);
@@ -3262,7 +3305,7 @@ styling for the work page
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  border-radius: 1.75rem;
+  border-radius: 0.25rem;
 
   /* Button */
   box-shadow: 0.0625rem 0.0625rem 0.125rem 0rem rgba(0, 0, 0, 0.02);
@@ -3824,4 +3867,409 @@ styling for the decor page
   font-style: normal;
   font-weight: 400;
   line-height: 2rem; /* 133.333% */
+}
+.langmain{
+  padding: 0 5rem;
+}
+.headinfo{
+  display: flex;
+width:100%;
+height: 6.25rem;
+padding: 1.375rem 5rem 0.70269rem 0;
+justify-content: left;
+align-items: center;
+flex-shrink: 0;
+background: #FFF;
+}
+.headinfo img{
+  width: 8.9375rem;
+height: 4.17231rem;
+flex-shrink: 0;
+}
+.infol{
+  display: inline-flex;
+padding: 1rem 5rem;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+width: 100%;
+margin: 1.75rem 0 0 0;
+}
+.infol p{
+  color: #000;
+font-family: Poppins;
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5rem; /* 66.667% */
+text-align: center;
+}
+.imain{
+  display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 2rem;
+width: 100%;
+}
+.langprof{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
+margin: 6rem 0 0 0;
+width: 100%;
+}
+.langprof p{
+  color: #000;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5rem; /* 150% */
+}
+.langmin{
+  width: 100%;
+height: 8.875rem;
+background: #E0E0E0;
+padding: 1.7rem 0 0 1.5rem;
+display: flex;
+gap: 3rem;
+width: 100%;
+}
+.langmin>div{
+  display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.0625rem;
+}
+
+.langmin>div p{
+  color: var(--Text-Active, #00171F);
+  text-align: center;
+  
+  /* B1 */
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+}
+.langmin>div input{
+  width: 20rem;
+  height: 2.5rem;
+  border-radius: 0.625rem;
+background: #FDFDFD;
+outline: none;
+border: none;
+padding: 0 1rem;
+}
+
+.edu-prof{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
+width: 100%;
+}
+.edu-prof h3{
+  color: #000;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5rem; /* 150% */
+}
+.edumin{
+  display: flex;
+padding: 0.9375rem 0.6875rem 0.9375rem 0.625rem;
+justify-content: center;
+align-items: center;
+background: #E0E0E0;
+width: 100%;
+}
+.edmin{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
+width: 100%;
+}
+.edmin1{
+  display: flex;
+padding: 1rem 5rem;
+align-items: flex-start;
+gap: 3.5625rem;
+}
+.edmin1>div p{
+  color: #000;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; /* 150% */
+}
+.edmin1>div:not(:first-child){
+  display: flex;
+align-items: center;
+gap: 0.625rem;
+}
+/* Style the toggle button */
+.toggle {
+  position: relative;
+  display: inline-block;
+  /* width: 3.75rem;
+  height: 2.125rem; */
+
+  width: 3.75rem;
+height: 1.8125rem;
+}
+
+/* Hide the default checkbox */
+.toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Style the slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 2.125rem;
+  
+}
+
+/* Style the slider thumb */
+.slider:before {
+  position: absolute;
+  content: "";
+  /* height: 1.625rem;
+  width: 1.625rem; */
+
+  width: 1.25rem;
+height: 1.25rem;
+  left: 0.25rem;
+  bottom: 0.25rem;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+/* When checked, change background color of slider */
+input:checked + .slider {
+  background-color: var(--primary-300);
+}
+
+/* When checked, move slider thumb to right */
+input:checked + .slider:before {
+  transform: translateX(1.625rem);
+}
+.smallt{
+  display: flex;
+padding: 0.625rem 5rem;
+justify-content: center;
+align-items: center;
+gap: 0.625rem;
+}
+.smallt p{
+  color: #000;
+font-family: Poppins;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 300;
+line-height: 1rem; /* 114.286% */
+}
+.tot{
+  display: flex;
+padding: 0rem 5rem;
+align-items: center;
+gap: 0.625rem;
+}
+.tot p{
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+}
+.tot input{
+  width: 20rem;
+  height: 2.5rem;
+  border-radius: 0.625rem;
+background: #FDFDFD;
+padding: 0 1rem;
+outline: none;
+border: none;
+}
+.det-grid{
+display: grid;
+grid-template-columns: auto auto auto;
+grid-column-gap: 0.5rem;
+grid-row-gap: 1rem;
+padding: 0.625rem 5rem;
+}
+.det-grid p{
+  color: var(--Text-Active, #00171F);
+/* text-align: center; */
+
+/* B1 */
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; /* 150% */
+}
+.det-grid input{
+  width: 22.5625rem;
+height: 2.5rem;
+border-radius: 0.625rem;
+background: #FDFDFD;
+outline: none;
+border: none;
+padding: 0 1rem;
+font-family: Poppins;
+}
+.add-prof{
+  display: flex;
+padding: 0rem 5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
+}
+.add-prof h3{
+  color: #000;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem; /* 150% */
+}
+.addmin{
+  display: flex;
+align-items: flex-start;
+gap: 3.6875rem;
+}
+.addmin p{
+  color: #000;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; /* 150% */
+}
+.addmin>div:not(:first-child){
+  display: flex;
+align-items: center;
+gap: 0.625rem;
+}
+.emp-his{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
+width: 100%;
+}
+.emp-his>h3{
+  color: #000;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5rem; /* 150% */
+}
+.emp-main{
+  display: flex;
+padding: 0.9375rem 1.3125rem 1.5625rem 0rem;
+align-items: center;
+background: #E0E0E0;
+width: 100%;
+}
+.emp-mini{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
+}
+.emp1{
+  display: flex;
+padding: 1rem 5rem;
+justify-content: center;
+align-items: center;
+gap: 0.625rem;
+}
+.emp1 p{
+  color: #000;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1rem; /* 114.286% */
+}
+input[type="file"] {
+  /* display: none; */
+  padding: 0.5rem 1rem;
+  border: none;
+}
+.emp-text{
+  display: flex;
+padding: 0rem 5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.0625rem;
+}
+.emp-text p{
+  color: var(--Text-Active, #00171F);
+text-align: center;
+
+/* B1 */
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; /* 150% */
+}
+.emp-text textarea{
+  width: 66.3125rem;
+height: 9.9375rem;
+border-radius: 0.625rem;
+background: #FDFDFD;
+border: none;
+outline: none;
+padding: 1rem;
+resize: none;
+}
+.imain button{
+  display: flex;
+  justify-content: center;
+width: 14rem;
+height: 3.5rem;
+padding: 1rem 2rem;
+justify-content: center;
+align-items: center;
+gap: 0.5rem;
+flex-shrink: 0;
+color: var(--Text-White, #FDFDFD);
+border-radius: 0.5rem;
+background: var(--secondary-100, #C65A42);
+border: none;
+/* CTA */
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.75rem; /* 140% */
+}
+.imain button:hover{
+  background-color: var(--secondary-200);
+}
+.imain button:active{
+  background-color: var(--secondary-100);
 }
