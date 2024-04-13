@@ -218,7 +218,9 @@ styling for the header
   font-weight: 600;
   line-height: 1.5rem; /* 150% */
 }
-
+/* .mobmenu {
+  display: none;
+} */
 /*
 styling for the footer
 */
@@ -436,7 +438,8 @@ styling for the user landing page
 }
 
 .slider-main {
-  width: 81.25rem;
+  /* width: 81.25rem; */
+  width: 100%;
   height: 43.1875rem;
   margin: 0 auto 1.25rem auto;
   position: relative;
@@ -451,40 +454,46 @@ styling for the user landing page
 }
 .slide {
   flex: 0 0 100%;
-  width: 500px;
+  /* width: 500px; */
+  width: 100%;
   animation: slide 9s infinite;
   /* opacity: 0; */
   transition: opacity 0.5s;
 }
 
-/* #userslider-con {
+#userslider-con {
   width: 100%;
   height: 100%;
-  position: absolute;
-  opacity: 0;
-} */
+  /* position: absolute;
+  opacity: 0; */
+}
 .userslider {
   display: flex;
-  width: 81.25rem;
+  /* width: 81.25rem; */
+  width: 100%;
   height: 43.1875rem;
-  padding-left: 0.375rem;
+  /* padding-left: 0.375rem; */
   justify-content: flex-end;
   align-items: center;
   flex-shrink: 0;
   margin: 0 auto 1.25rem auto;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
+
 .userslider img {
-  width: 45.375rem;
+  /* width: 45.375rem; */
   height: 43.1875rem;
+
   flex-shrink: 0;
+  object-fit: contain;
 }
 .slider-text {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 2.5rem;
+  width: 36rem;
 }
 .slider-text h1 {
   height: 8.125rem;
@@ -525,7 +534,7 @@ styling for the user landing page
 
   /* CTA */
   font-family: Poppins;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
   line-height: 28px; /* 140% */
@@ -801,11 +810,11 @@ styling for the user landing page
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 1rem;
   align-self: stretch;
 }
 .main-first h2 {
-  width: 889px;
+  width: 55.56rem;
   color: var(--primary-200, #1b5096);
   text-align: center;
 
@@ -817,13 +826,13 @@ styling for the user landing page
   line-height: 56px; /* 116.667% */
 }
 .main-first p {
-  width: 889px;
+  width: 55.5625rem;
   color: var(--Text-Active, #00171f);
   text-align: center;
 
   /* B1 */
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
@@ -832,7 +841,7 @@ styling for the user landing page
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 2.5rem;
   align-self: stretch;
 }
 .main-sec > div {
@@ -847,14 +856,14 @@ styling for the user landing page
   background: var(--Text-White, #fdfdfd);
 }
 .con-back {
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
   fill: #ecc8c0;
   z-index: -1000;
 }
 .icon-main {
-  width: 64px;
-  height: 64px;
+  width: 4rem;
+  height: 4rem;
   position: absolute;
   left: 18px;
   top: 18px;
@@ -869,7 +878,7 @@ styling for the user landing page
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 8px;
+  gap: 0.5rem;
   align-self: stretch;
 }
 .svg-text h3 {
@@ -879,7 +888,7 @@ styling for the user landing page
 
   /* H2 */
   font-family: Inter;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-style: normal;
   font-weight: 500;
   line-height: 44px; /* 122.222% */
