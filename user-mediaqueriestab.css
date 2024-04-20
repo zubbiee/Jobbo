@@ -1,0 +1,388 @@
+html {
+  font-size: 50%;
+}
+.header-con {
+  width: 100%;
+  height: 6.92231rem;
+  flex-shrink: 0;
+  gap: 1rem;
+  padding: 1.69rem 2.19rem 1.73rem 0.94rem;
+}
+.nav {
+  width: 70%;
+}
+.search-box {
+  display: none;
+}
+.search {
+  width: 3.5rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+}
+.stats {
+  width: 100%;
+  padding: 1.5rem;
+}
+.stats > div h2 {
+  font-size: 1.5rem;
+}
+.stats > div p {
+  font-size: 0.875rem;
+  width: 100%;
+}
+
+.stats > div {
+  width: 15%;
+}
+.stats h2,
+p {
+  width: 100%;
+}
+.userslider {
+  width: 100%;
+}
+.userslider img {
+  width: 50%;
+  height: 100%;
+  flex-shrink: 0;
+
+  object-fit: cover;
+}
+.slider-text {
+  width: 50%;
+}
+.slider-text h1 {
+  width: 100%;
+}
+/* .ih {
+  height: 0.2rem !important;
+} */
+.works-main {
+  width: 100%;
+}
+.main-first {
+  width: 100%;
+}
+.main-first h2 {
+  font-size: 2.5rem;
+  width: 100%;
+}
+.main-first p {
+  width: 100%;
+}
+.main-sec {
+  width: 100%;
+  gap: 0.5rem;
+}
+.main-sec > div {
+  gap: 1rem;
+}
+.svg-hold {
+  width: 4.49rem;
+  height: 4.49rem;
+  position: relative;
+}
+.con-back {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+.icon-back {
+  width: 4.48975rem;
+  height: 4.48975rem;
+  position: relative;
+}
+.icon-main {
+  width: 2.99319rem;
+  height: 2.99319rem;
+  position: absolute;
+  /* right: 0.74806rem;
+  bottom: 10.73694rem; */
+  left: 0.74806rem;
+  top: 0.73694rem;
+}
+.svg-text {
+  gap: 0.5rem;
+}
+.svg-text h3 {
+  font-size: 1.5rem;
+}
+.svg-text p {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.ex {
+  width: 100%;
+  padding: 1.5rem 2.5rem;
+}
+.ex-filled > div {
+  font-size: 1rem;
+  padding: 1rem 0rem;
+  height: 4rem;
+  /* width: 100%; */
+  min-width: 28rem;
+  /* white-space: nowrap; */
+}
+.ex-filled {
+  width: 100%;
+}
+.ex-main {
+  gap: 1rem;
+  width: 80%;
+  margin: auto;
+}
+.ex-first h3 {
+  font-size: 2.5rem;
+  width: 100%;
+}
+.ex-first p {
+  font-size: 1rem;
+  width: 100%;
+}
+.ex-graphics svg {
+  display: none;
+}
+.ex-graphics img {
+  width: 12.69213rem;
+  height: 15.02894rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.ex-text {
+  /* width: 20.5rem;
+  height: 13rem; */
+  width: 50%;
+}
+.ex {
+  height: auto;
+}
+.browse {
+  display: none;
+}
+.talent {
+  width: 100%;
+}
+.tal {
+  width: 100%;
+}
+.talentsub {
+  flex-direction: row;
+  width: 100%;
+  overflow-x: scroll;
+}
+.sub-tal > div {
+  width: 26.0625rem;
+}
+.question {
+  gap: 1.5rem;
+  width: 100%;
+  padding: 1.5rem 5rem;
+}
+.questions {
+  width: 100%;
+}
+.feedbody {
+  width: 100%;
+}
+.feed-box {
+  width: 100%;
+}
+.feed-box > div {
+  width: 100%;
+}
+/* .works {
+  margin-bottom: 5rem;
+} */
+.sub-icon {
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+.sub-icon2 {
+  width: 100%;
+  justify-content: space-between;
+}
+.footer-sub {
+  width: 100%;
+}
+.foot-last {
+  display: none;
+}
+footer {
+  padding: 3rem;
+}
+.subs-footer {
+  width: 100%;
+}
+.mobmenu {
+  display: none;
+}
+
+.queshead {
+  width: 100%;
+}
+
+/* 
+for the user about page
+*/
+.about-head {
+  height: auto;
+  padding: 1rem;
+}
+.head-text {
+  padding: 1rem 2rem;
+  gap: 1rem;
+  width: 100%;
+}
+.head-text h2 {
+  font-size: 2.25rem;
+}
+.head-text p {
+  font-size: 1rem;
+  width: 100%;
+}
+.mission {
+  padding: 3rem;
+  align-items: center;
+  height: auto;
+}
+.mission h2 {
+  font-size: 2.25rem;
+}
+.mission p {
+  font-size: 1rem;
+  width: 60%;
+}
+.mission img {
+  width: 40%;
+  height: 70%;
+}
+.mission-text {
+  gap: 0.5rem;
+  height: 100%;
+}
+.choose-main {
+  width: 100%;
+}
+.choose-main img {
+  width: 40%;
+  height: 100%;
+}
+.team {
+  padding: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.team-grid {
+  width: 100%;
+  /* display: flex; */
+}
+.team-grid > div {
+  width: 100%;
+}
+.team-boxes {
+  width: 12.375rem;
+  padding: 2.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.team-boxes img {
+  width: 8.875rem;
+  height: 8.875rem;
+  padding: 0.625rem;
+}
+.team-boxes h3 {
+  font-size: 1rem;
+  width: 100%;
+  /* white-space: nowrap; */
+}
+.team-boxes p {
+  font-size: 0.875rem;
+}
+.team-boxes > div {
+  gap: 0.5rem;
+}
+.feed-box > div {
+  height: auto;
+}
+
+/* 
+styling for the workpage
+*/
+.trans {
+  flex-direction: column;
+  width: 100%;
+}
+.trans-pic {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 26rem;
+}
+.trans-pic img {
+  width: 100%;
+  height: 12.5rem;
+  /* object-fit: contain; */
+}
+.trans-text {
+  width: 100%;
+  text-align: center;
+}
+.trans-text > div {
+  /* width: 100%; */
+  margin: auto;
+  text-align: center;
+}
+.trant h2,
+.trant p {
+  width: 100%;
+}
+.safe {
+  flex-direction: column-reverse;
+  width: 100%;
+}
+.safe-pic {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 26rem;
+}
+.safe-pic img {
+  width: 100%;
+  height: 12.5rem;
+  /* object-fit: contain; */
+}
+.safe-text {
+  width: 100%;
+  text-align: center;
+}
+.safe-text > div {
+  /* width: 100%; */
+  margin: auto;
+  text-align: center;
+}
+.trant h2,
+.trant p {
+  width: 100%;
+}
+/* 
+styling for the user hire page
+*/
+.hire-profile {
+  grid-template-columns: auto auto;
+}
+.prof-hire {
+  max-width: 22.5rem;
+}
+/* 
+styling for the worker profile
+*/
+/* .worker-body {
+  width: 100%;
+} */
+/* #passmain2 {
+  height: 100vh;
+} */
