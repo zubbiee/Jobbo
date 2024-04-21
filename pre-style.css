@@ -601,7 +601,7 @@ styling for the user landing page
   font-family: Inter;
   font-size: 3rem;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 3.5rem; /* 116.667% */
 }
 .main-first p {
@@ -730,7 +730,7 @@ styling for the user landing page
   font-family: Poppins;
   font-size: 1.5rem;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 2rem; /* 133.333% */
 }
 .ex-sec {
@@ -789,7 +789,7 @@ styling for the user landing page
   padding: 1.10888rem 5.66925rem 0.89113rem 1rem;
   align-items: center;
   align-self: stretch;
-  background: rgba(189, 161, 118, 0.3);
+  /* background: rgba(189, 161, 118, 0.3); */
 }
 .ex-graphics img {
   width: 25.64081rem;
